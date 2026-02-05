@@ -3,7 +3,7 @@ import numpy as np
 import nltk
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.selection import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn import naive_bayes
 from sklearn.metrics import accuracy_score
 import pickle
